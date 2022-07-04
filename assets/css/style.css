@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.clear {
+    clear: both;
+}
+
+.title {
+    padding: 16px 0;
+    margin: 10px 0;
+    font-size: 24px;
+}
+#header {
+    width: 100%;
+    padding: 8px 16px;
+    display: block;
+    letter-spacing: 4px;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+}
+.content-header {
+    height: 39px;
+}
+
+#header a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+#nav {
+    float: right;
+}
+
+a {
+    color: #000;
+}
+#nav > li {
+    padding: 8px 16px;
+    display: inline-block;  
+} 
+
+.content-home {
+    position: relative;
+}
+
+.home-img {
+    width: 100%;
+    display: block;
+}
+
+#content {
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.heading-project {
+    padding: 32px 16px;
+}
+
+.row-1{
+    padding: 0 8px;
+    width: 100%;
+    display: inline-block;
+}
+
+.col-1 {
+    float: left;
+    width: 25%;
+    
+}
+
+.item-project {
+    padding: 0 8px;
+    margin: 0 0 16px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+
+@media (max-width: 992px) {
+    .col-1 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .col-1 {
+        width: 100% !important;
+    }
+    #nav {
+        display: none !important;
+    }
+}
+
+/* .row-1 {
+    margin: 0 0 16px;
+    padding: 0 8px;
+    width: 25%;
+    float: left;
+} */
+
+.item-project {
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: inline-block;
+}
+
+.item-project .name-project {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000;
+}
+
+#about {
+    padding: 32px 16px;
+}
+
+.content-about {
+    margin: 15px 0;
+}
+
+.author-img {
+    width: 100%;
+}
+
+.author {
+    padding: 0 8px;
+    margin: 0 0 16px;
+}
+
+.name-author {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.job-author {
+    opacity: 0.75;
+    margin: 15px 0;
+}
+
+.decription-author {
+    margin: 15px 0;
+}
+
+.author .contact-btn {
+    width: auto;
+    padding: 8px 16px;
+    background-color: f1f1f1;
+    border: 0;
+}
+
+.detail-contact {
+    padding: 32px 16px;
+}
+
+.decription-contact {
+    margin: 15px 0;
+}
+
+.margin-form {
+    margin: 16px 0;
+}
+
+
+.form-contact > input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%
+}
+
+
+.send-btn {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+
+.detail-map {
+    padding: 0 16px;
+}
+
+.map-img {
+    width: 100%;
+}
+
+.detail-footer {
+    padding: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff ;
+}
+
+.detail-footer p{
+    margin: 15px 0;
+    text-align: center; 
+}
+
+.detail-footer p > a{
+    color: #fff ;
+}
