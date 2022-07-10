@@ -21,12 +21,15 @@ html, body {
 }
 #header {
     width: 100%;
-    padding: 8px 16px;
     display: block;
     letter-spacing: 4px;
     position: fixed;
     z-index: 1;
     background-color: #fff;
+}
+
+.heading-tag {
+    padding: 8px 16px;
 }
 .content-header {
     height: 39px;
